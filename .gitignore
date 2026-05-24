@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment
+.env
+.env.*
+*.local
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python/script caches
+__pycache__/
+*.py[cod]
+
+# Private development artifacts
+.codex
+.claude/
+agent-log/
+documents/old/
+documents/**/*research-context*.md
+0418-manual-todo.md
+a.md
+a.ps1
